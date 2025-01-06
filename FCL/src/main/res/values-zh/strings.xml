@@ -24,8 +24,9 @@
 
     <string name="about">关于</string>
     <string name="about_sponsor">赞助</string>
+    <string name="about_no_sponsor">暂时还没有赞助入口呢！</string>
     <string name="about_source">开源</string>
-    <string name="about_desc">Fold Craft Launcher 是一个 Android Minecraft 启动器，让用户能够在 Android 设备上启动 Minecraft: Java Edition。\n\nFold Craft Launcher 由 FCL-Team 开发。\n\nFold Craft Launcher 的主要功能是基于 HMCLCore 修改而成的。\n\n该应用借鉴和引用了一些 PojavLauncher 和 Boat 的源码，所以如果你要传播分发该软件，请遵循 GPL-v3 协议。</string>
+    <string name="about_desc">BetaCraft Launcher 是一个 Android Minecraft 启动器，让用户能够在 Android 设备上启动 Minecraft: Java Edition。  BetaCraft Launcher 由 Baymaxawa 开发。  BetaCraft Launcher 的主要功能是基于 Fold Craft Launcher 修改而成的。  该应用借鉴和引用了一些 BetaCraft 的源码，所以如果你要传播分发该软件，请遵循 GPL-v3 协议。</string>
 
     <string name="account_add_server">添加认证服务器</string>
     <string name="account_add_server_url">服务器地址</string>
@@ -123,7 +124,7 @@
     <string name="button_reset">重置</string>
 
     <string name="community">社区</string>
-    <string name="community_hint">加入社区以获取最新版本，反馈 bug 等。如果你要加入社区，请遵守社区规定。\n注：由于 QQ 群聊人数有限，加入 QQ 群需先赞助10元或以上金额，赞助方式见关于页面。</string>
+    <string name="community_hint">"加入社区以获取最新版本，反馈 bug 等。如果你要加入社区，请遵守社区规定。 "</string>
     <string name="community_qq">QQ 群</string>
 
     <string name="control_create">创建新布局</string>
@@ -960,4 +961,7 @@
     <string name="wiki_release">https://zh.minecraft.wiki/w/Java版%s?variant=zh-cn</string>
     <string name="wiki_snapshot">https://zh.minecraft.wiki/w/%s?variant=zh-cn</string>
     <string name="installed">已安装</string>
+    <string name="update_not_support">暂不支持更新功能！</string>
+    <string name="community_discord_not_exists">目前还没有此启动器的Discord服务器哦。</string>
+    <string name="community_qq_group_not_exists">还没创QQ群呢！</string>
 </resources>

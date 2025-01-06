@@ -118,11 +118,9 @@
     <string name="button_remove_confirm">آیا مطمئناً آن را به طور دائم حذف می کنید؟ این عمل نمی تواند خنثی شود!</string>
     <string name="button_save_as">ذخیره به عنوان</string>
     <string name="button_select_all">انتخاب همه</string>
-    <string name="button_set">تنظیم</string>
     <string name="button_reset">بازتنظیم</string>
 
     <string name="community">کامیونیتی</string>
-    <string name="community_hint">برای دریافت آخرین نسخه ، گزارش اشکالات و غیره به جامعه ما بپیوندید. لطفاً در صورت پیوستن ، قوانین جامعه را دنبال کنید.</string>
     <string name="community_qq">گروه qq</string>
 
     <string name="control_create">کنترلر ایجاد کنید</string>

@@ -15,7 +15,7 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "Fold Craft Launcher"
+rootProject.name = "BetaCraft Launcher"
 include ':FCL'
 include ':FCLCore'
 include ':FCLauncher'

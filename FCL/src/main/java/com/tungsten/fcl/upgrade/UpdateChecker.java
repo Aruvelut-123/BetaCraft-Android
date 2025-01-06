@@ -13,6 +13,7 @@ import com.tungsten.fclcore.task.Schedulers;
 import com.tungsten.fclcore.task.Task;
 import com.tungsten.fclcore.util.gson.JsonUtils;
 import com.tungsten.fclcore.util.io.NetworkUtils;
+import com.tungsten.fcllibrary.component.dialog.FCLAlertDialog;
 import com.tungsten.fcllibrary.util.LocaleUtils;
 
 import java.util.ArrayList;
@@ -52,6 +53,7 @@ public class UpdateChecker {
     public Task<?> check(Context context, boolean showBeta, boolean showAlert) {
         return Task.runAsync(() -> {
             isChecking = true;
+            /*
             if (showAlert) {
                 Schedulers.androidUIThread().execute(() -> Toast.makeText(context, context.getString(R.string.update_checking), Toast.LENGTH_SHORT).show());
             }
@@ -71,6 +73,8 @@ public class UpdateChecker {
             if (showAlert) {
                 Schedulers.androidUIThread().execute(() -> Toast.makeText(context, context.getString(R.string.update_not_exist), Toast.LENGTH_SHORT).show());
             }
+            */
+            Schedulers.androidUIThread().execute(() -> Toast.makeText(context, context.getString(R.string.update_not_support), Toast.LENGTH_SHORT).show());
             isChecking = false;
         });
     }

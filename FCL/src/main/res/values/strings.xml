@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Fold Craft Launcher</string>
+    <string name="app_name" translatable="false">BetaCraft Launcher</string>
 
     <string name="splash_permission_msg">No storage permission, please grant Fold Craft Launcher the permission.</string>
     <string name="splash_permission_grant">Grant</string>
@@ -33,11 +33,14 @@
     <string name="setting">Setting</string>
     
     <string name="about">About</string>
-    <string name="about_launcher" translatable="false">Fold Craft Launcher</string>
-    <string name="about_developer" translatable="false">FCL-Team</string>
+    <string name="about_launcher" translatable="false">BetaCraft Launcher</string>
+    <string name="about_developer" translatable="false">Baymaxawa</string>
+    <string name="about_fork_from" translatable="false">Fold Craft Launcher</string>
+    <string name="about_original_developer" translatable="false">FCL-Team</string>
     <string name="about_sponsor">Sponsor</string>
+    <string name="about_no_sponsor">No sponsor site for you yet!</string>
     <string name="about_source">Open Source</string>
-    <string name="about_desc">Fold Craft Launcher is an Android Minecraft Launcher, allows user to launch Minecraft: Java Edition on Android device.\n\nFold Craft Launcher is developed by FCL-Team.\n\nFold Craft Launcher\'s most features are modified based on HMCLCore.\n\nThe app borrows and quotes some codes of PojavLauncher and Boat, so if you are going to distribute this app, please follow GPL-v3 License.</string>
+    <string name="about_desc">BetaCraft Launcher is an Android Minecraft Launcher, allows user to launch Minecraft: Java Edition on Android device.  BetaCraft Launcher is developed by Baymaxawa.  BetaCraft Launcher\'s most features are modified based on Fold Craft Launcher.  The app borrows and quotes some codes of BetaCraft, so if you are going to distribute this app, please follow GPL-v3 License.</string>
 
     <string name="account_add_server">Add Authentication Server</string>
     <string name="account_add_server_url">Server URL</string>
@@ -1008,4 +1011,7 @@
     <string name="wiki_release">https://minecraft.wiki/w/Java_Edition_%s</string>
     <string name="wiki_snapshot">https://minecraft.wiki/w/Java_Edition_%s</string>
     <string name="installed">Installed</string>
+    <string name="update_not_support">Update is not supported yet!</string>
+    <string name="community_discord_not_exists">No Discord server for now... yet.</string>
+    <string name="community_qq_group_not_exists">No QQ Group for this yet!</string>
 </resources>

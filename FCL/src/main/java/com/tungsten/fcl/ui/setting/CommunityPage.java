@@ -4,8 +4,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.view.View;
+import android.widget.Toast;
 
 import com.tungsten.fcl.R;
+import com.tungsten.fclcore.task.Schedulers;
 import com.tungsten.fclcore.task.Task;
 import com.tungsten.fcllibrary.component.ui.FCLCommonPage;
 import com.tungsten.fcllibrary.component.view.FCLLinearLayout;
@@ -36,13 +38,18 @@ public class CommunityPage extends FCLCommonPage implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
+        Context context = this.getContext();
         if (v == discord) {
+            /*
             Uri uri = Uri.parse("https://discord.gg/ffhvuXTwyV");
             Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             getContext().startActivity(intent);
+             */
+            Schedulers.androidUIThread().execute(() -> Toast.makeText(context, context.getString(R.string.community_discord_not_exists), Toast.LENGTH_LONG).show());
         }
         if (v == qq) {
-            joinQQGroup(QQ_GROUP_KEY);
+            /*joinQQGroup(QQ_GROUP_KEY);*/
+            Schedulers.androidUIThread().execute(() -> Toast.makeText(context, context.getString(R.string.community_qq_group_not_exists), Toast.LENGTH_SHORT).show());
         }
     }
 
